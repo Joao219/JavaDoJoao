@@ -13,5 +13,6 @@ public class ScannerApp {
         System.out.print("Digite sua idade: ");
         idade = entrada.nextInt();
         System.out.println("Você tem "+ idade +" anos.");
+        entrada.close();
     }
 }
